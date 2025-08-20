@@ -27,7 +27,7 @@ pipeline {
         }
         stage("complete") {
             steps {
-        echo "job complete 1 "
+        echo "job complete changed message for this new pipeline "
 }            
 }
     }
